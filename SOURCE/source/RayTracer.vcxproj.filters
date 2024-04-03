@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Math">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Math\Matrix">
+      <UniqueIdentifier>{131bd3df-55a0-4b46-b017-aeb83adb9985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector3">
+      <UniqueIdentifier>{057c1fee-40c7-4d98-9ed9-6b333e13848d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\Vector4">
+      <UniqueIdentifier>{5cae975c-b66b-4852-b398-a74a6f588c9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math\ColorRGB">
+      <UniqueIdentifier>{b727a2fe-3ca2-48ab-afd7-25262abcf81c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{72056cb6-72a2-42b7-b05e-376f1ddd957e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Material">
+      <UniqueIdentifier>{3c3c86e7-d4a6-44cc-bdf1-f5bf7416f23a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Scene">
+      <UniqueIdentifier>{a7e24452-29d1-4993-81c9-6ec9421af422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Timer">
+      <UniqueIdentifier>{8457ce57-b028-4622-92be-93cdb5052684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Renderer">
+      <UniqueIdentifier>{734b097e-1cab-44e2-87d7-66d3e36372de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\Camera">
+      <UniqueIdentifier>{a31b8398-985b-434d-bfdf-690b69f71179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic\DataTypes">
+      <UniqueIdentifier>{85bc650e-7968-4fbe-8370-fda3875dbec1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="BRDFs.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Logic\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Logic\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Logic\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Logic\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Math\Vector3</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Math\Vector4</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorRGB.h">
+      <Filter>Math\ColorRGB</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelpers.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Logic\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTypes.h">
+      <Filter>Logic\DataTypes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Material.cpp">
+      <Filter>Logic\Material</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Logic\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Logic\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Logic\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Math\Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Math\Vector3</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector4.cpp">
+      <Filter>Math\Vector4</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorRGB.cpp">
+      <Filter>Math\ColorRGB</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Logic\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="DataTypes.cpp">
+      <Filter>Logic\DataTypes</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
